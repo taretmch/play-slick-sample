@@ -10,3 +10,6 @@ target
 docker/db/data/
 .bloop
 .DS_Store
+.cache/
+.ivy2/
+.sbt/
