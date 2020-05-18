@@ -1,4 +1,4 @@
-CREATE TABLE `to_do` (
+CREATE TABLE if not exists `to_do` (
   `id`          BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
   `title`       VARCHAR(255)        NOT NULL,
   `body`        TEXT,
